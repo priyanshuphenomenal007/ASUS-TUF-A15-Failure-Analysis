@@ -1,0 +1,4 @@
+﻿Timestamp,Name,PNPDeviceID,Status
+--- Change Detected at [redacted-phone]:53:[redacted-phone]:53:22,"AMD Radeon(TM) Graphics","PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6\4&12C9051D&0&0041","OK"
+[redacted-phone]:53:22,"NVIDIA GeForce RTX 3050 Laptop GPU","PCI\VEN_10DE&DEV_25A2&SUBSYS_16AD1043&REV_A1\4&2B1A879F&0&0009","OK"
+

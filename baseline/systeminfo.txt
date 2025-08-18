@@ -1,0 +1,56 @@
+﻿
+Host Name:                     LAPTOP-NSMN8S9D
+OS Name:                       Microsoft Windows 11 Home Single Language
+OS Version:                    10.0.26100 N/A Build 26100
+OS Manufacturer:               Microsoft Corporation
+OS Configuration:              Standalone Workstation
+OS Build Type:                 Multiprocessor Free
+Registered Owner:              ASUS
+Registered Organization:       N/A
+Product ID:                    [redacted-phone]-AAOEM
+Original Install Date:         8/16/2025, 3:59:38 PM
+System Boot Time:              8/18/2025, 9:09:44 AM
+System Manufacturer:           ASUSTeK COMPUTER INC.
+System Model:                  ASUS TUF Gaming A15 FA506ICB_FA506ICB
+System Type:                   x64-based PC
+Processor(s):                  1 Processor(s) Installed.
+                               [01]: AMD64 Family 23 Model 96 Stepping 1 AuthenticAMD ~2901 Mhz
+BIOS Version:                  American Megatrends Inc. FA506ICB.307, 12/28/2022
+Windows Directory:             C:\WINDOWS
+System Directory:              C:\WINDOWS\system32
+Boot Device:                   \Device\HarddiskVolume3
+System Locale:                 en-us;English (United States)
+Input Locale:                  00004009
+Time Zone:                     (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
+Total Physical Memory:         15,789 MB
+Available Physical Memory:     9,811 MB
+Virtual Memory: Max Size:      18,733 MB
+Virtual Memory: Available:     10,258 MB
+Virtual Memory: In Use:        8,475 MB
+Page File Location(s):         C:\pagefile.sys
+Domain:                        WORKGROUP
+Logon Server:                  \\LAPTOP-NSMN8S9D
+Hotfix(s):                     3 Hotfix(s) Installed.
+                               [01]: KB5056579
+                               [02]: KB5063878
+                               [03]: KB5065381
+Network Card(s):               2 NIC(s) Installed.
+                               [01]: Realtek PCIe GbE Family Controller
+                                     Connection Name: Ethernet
+                                     Status:          Media disconnected
+                               [02]: MediaTek Wi-Fi 6 MT7921 Wireless LAN Card
+                                     Connection Name: Wi-Fi
+                                     DHCP Enabled:    Yes
+                                     DHCP Server:     192.168.0.1
+                                     IP address(es)
+                                     [01]: 192.168.0.128
+                                     [02]: fe80::fddb:809a:5976:e55
+Virtualization-based security: Status: Not enabled
+                               App Control for Business policy: Enforced
+                               App Control for Business user mode policy: Off
+                               Security Features Enabled:
+Hyper-V Requirements:          VM Monitor Mode Extensions: Yes
+                               Virtualization Enabled In Firmware: Yes
+                               Second Level Address Translation: Yes
+                               Data Execution Prevention Available: Yes
+

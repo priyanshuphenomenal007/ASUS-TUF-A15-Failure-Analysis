@@ -1,0 +1,108 @@
+﻿=== WMIC VideoController ===
+
+
+
+
+Name=AMD Radeon(TM) Graphics
+
+PNPDeviceID=PCI\VEN_1002&amp;DEV_1636&amp;SUBSYS_16AD1043&amp;REV_C6\4&amp;12C9051D&amp;0&amp;0041
+
+Status=OK
+
+
+
+
+
+Name=NVIDIA GeForce RTX 3050 Laptop GPU
+
+PNPDeviceID=PCI\VEN_10DE&amp;DEV_25A2&amp;SUBSYS_16AD1043&amp;REV_A1\4&amp;2B1A879F&amp;0&amp;0009
+
+Status=OK
+
+
+
+
+
+
+
+=== PnP Display Class ===
+
+
+Class                       : Display
+FriendlyName                : AMD Radeon(TM) Graphics
+InstanceId                  : PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6\4&12C9051D&0&0041
+Problem                     : CM_PROB_NONE
+ConfigManagerErrorCode      : CM_PROB_NONE
+ProblemDescription          : 
+Caption                     : AMD Radeon(TM) Graphics
+Description                 : AMD Radeon(TM) Graphics
+InstallDate                 : 
+Name                        : AMD Radeon(TM) Graphics
+Status                      : OK
+Availability                : 
+ConfigManagerUserConfig     : False
+CreationClassName           : Win32_PnPEntity
+DeviceID                    : PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6\4&12C9051D&0&0041
+ErrorCleared                : 
+ErrorDescription            : 
+LastErrorCode               : 
+PNPDeviceID                 : PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6\4&12C9051D&0&0041
+PowerManagementCapabilities : 
+PowerManagementSupported    : 
+StatusInfo                  : 
+SystemCreationClassName     : Win32_ComputerSystem
+SystemName                  : LAPTOP-NSMN8S9D
+ClassGuid                   : {4d36e968-e325-11ce-bfc1-08002be10318}
+CompatibleID                : {PCI\VEN_1002&DEV_1636&REV_C6, PCI\VEN_1002&DEV_1636, PCI\VEN_1002&CC_030000, 
+                              PCI\VEN_1002&CC_0300...}
+HardwareID                  : {PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6, PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043, 
+                              PCI\VEN_1002&DEV_1636&CC_030000, PCI\VEN_1002&DEV_1636&CC_0300}
+Manufacturer                : Advanced Micro Devices, Inc.
+PNPClass                    : Display
+Present                     : True
+Service                     : amdwddmg
+PSComputerName              : 
+CimClass                    : ROOT/cimv2:Win32_PnPEntity
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+Class                       : Display
+FriendlyName                : NVIDIA GeForce RTX 3050 Laptop GPU
+InstanceId                  : PCI\VEN_10DE&DEV_25A2&SUBSYS_16AD1043&REV_A1\4&2B1A879F&0&0009
+Problem                     : CM_PROB_NONE
+ConfigManagerErrorCode      : CM_PROB_NONE
+ProblemDescription          : 
+Caption                     : NVIDIA GeForce RTX 3050 Laptop GPU
+Description                 : NVIDIA GeForce RTX 3050 Laptop GPU
+InstallDate                 : 
+Name                        : NVIDIA GeForce RTX 3050 Laptop GPU
+Status                      : OK
+Availability                : 
+ConfigManagerUserConfig     : False
+CreationClassName           : Win32_PnPEntity
+DeviceID                    : PCI\VEN_10DE&DEV_25A2&SUBSYS_16AD1043&REV_A1\4&2B1A879F&0&0009
+ErrorCleared                : 
+ErrorDescription            : 
+LastErrorCode               : 
+PNPDeviceID                 : PCI\VEN_10DE&DEV_25A2&SUBSYS_16AD1043&REV_A1\4&2B1A879F&0&0009
+PowerManagementCapabilities : 
+PowerManagementSupported    : 
+StatusInfo                  : 
+SystemCreationClassName     : Win32_ComputerSystem
+SystemName                  : LAPTOP-NSMN8S9D
+ClassGuid                   : {4d36e968-e325-11ce-bfc1-08002be10318}
+CompatibleID                : {PCI\VEN_10DE&DEV_25A2&REV_A1, PCI\VEN_10DE&DEV_25A2, PCI\VEN_10DE&CC_030000, 
+                              PCI\VEN_10DE&CC_0300...}
+HardwareID                  : {PCI\VEN_10DE&DEV_25A2&SUBSYS_16AD1043&REV_A1, PCI\VEN_10DE&DEV_25A2&SUBSYS_16AD1043, 
+                              PCI\VEN_10DE&DEV_25A2&CC_030000, PCI\VEN_10DE&DEV_25A2&CC_0300}
+Manufacturer                : NVIDIA
+PNPClass                    : Display
+Present                     : True
+Service                     : nvlddmkm
+PSComputerName              : 
+CimClass                    : ROOT/cimv2:Win32_PnPEntity
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+

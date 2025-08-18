@@ -1,0 +1,41 @@
+﻿- <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+- <System>
+  <Provider Name="Microsoft-Windows-Kernel-Power" Guid="{331c3b3a-2005-44c2-ac5e-77220c37d6b4}" /> 
+  <EventID>41</EventID> 
+  <Version>10</Version> 
+  <Level>1</Level> 
+  <Task>63</Task> 
+  <Opcode>0</Opcode> 
+  <Keywords>0x[redacted-phone]</Keywords> 
+  <TimeCreated SystemTime="[redacted-phone]T10:42:10.9719565Z" /> 
+  <EventRecordID>384</EventRecordID> 
+  <Correlation /> 
+  <Execution ProcessID="4" ThreadID="8" /> 
+  <Channel>System</Channel> 
+  <Computer>LAPTOP-NSMN8S9D</Computer> 
+  <Security UserID="S-1-5-18" /> 
+  </System>
+- <EventData>
+  <Data Name="BugcheckCode">159</Data> 
+  <Data Name="BugcheckParameter1">0x3</Data> 
+  <Data Name="BugcheckParameter2">0xffff948f707bf060</Data> 
+  <Data Name="BugcheckParameter3">0xfffff887cbcae9f0</Data> 
+  <Data Name="BugcheckParameter4">0xffff948f759dda70</Data> 
+  <Data Name="SleepInProgress">0</Data> 
+  <Data Name="PowerButtonTimestamp">0</Data> 
+  <Data Name="BootAppStatus">0</Data> 
+  <Data Name="Checkpoint">0</Data> 
+  <Data Name="ConnectedStandbyInProgress">false</Data> 
+  <Data Name="SystemSleepTransitionsToOn">0</Data> 
+  <Data Name="CsEntryScenarioInstanceId">0</Data> 
+  <Data Name="BugcheckInfoFromEFI">false</Data> 
+  <Data Name="CheckpointStatus">0</Data> 
+  <Data Name="CsEntryScenarioInstanceIdV2">0</Data> 
+  <Data Name="LongPowerButtonPressDetected">false</Data> 
+  <Data Name="LidReliability">false</Data> 
+  <Data Name="InputSuppressionState">0</Data> 
+  <Data Name="PowerButtonSuppressionState">0</Data> 
+  <Data Name="LidState">1</Data> 
+  <Data Name="WHEABootErrorCount">0</Data> 
+  </EventData>
+  </Event>

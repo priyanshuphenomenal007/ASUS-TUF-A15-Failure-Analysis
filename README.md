@@ -1,7 +1,7 @@
 ﻿# Failure Analysis — ASUS TUF Gaming A15 (FA506ICB)
 **Report Date:** [redacted-phone] | **System S/N:** N7NRCX07W******304
 
-> **Scope:** The evidence within this repository documents a pattern of recurring, critical system failures on a freshly installed OS. The data correlates these crashes (`Kernel-Power Event ID 41`) with the intermittent disappearance of the dedicated GPU and a specific `BugcheckCode 159 (DRIVER_POWER_STATE_FAILURE)`. HWiNFO logs confirm these failures are not caused by overheating, strongly suggesting a systemic hardware fault.
+> **Scope:** The evidence within this repository documents a pattern of recurring and evolving critical system failures on a freshly installed OS. The data includes logs of multiple critical crashes (`BugcheckCode 159`), video proof of the dGPU disappearing, and most critically, video documentation of the **live degradation of the dGPU from a non-responsive "zombie" state to a complete hardware disconnection without a system reboot.** HWiNFO logs confirm all failures occur under normal thermal conditions, strongly suggesting a systemic hardware fault.
 
 ---
 
@@ -11,9 +11,12 @@
 * **/baseline/:** System identity, driver manifests, and power/battery health reports.
 * **/evidence/runs/:** Timestamped folders with raw `.evtx` system logs and focused `.csv` reports of crashes.
 * **/snippets/:** Detailed XML data for four distinct, critical `Kernel-Power` failures.
-* **/Video_Evidence/:** A file with links to video proof of all documented failure modes.
+* **/Video_Evidence/:** A file with links to all video proof, including the live hardware degradation sequence.
 * **/reports/:** Visual summaries from the Windows Reliability Monitor and Event Viewer.
-* **/evidence/HWiNFO.CSV**: A detailed, timestamped log of system thermals and voltages.
+* **/evidence/HWiNFO_Thermal_Baseline_Pre-Crashes.CSV**: A detailed thermal log establishing a safe operating baseline and ruling out general overheating as a cause.
+* **/evidence/HWiNFO_Live_Monitoring_Log_YYYY-MM-DD.CSV**: A continuous log of system thermals and voltages during the period of escalating failures, including during the on-site technician's visit.
+* **/Email_Screenshots/:** A complete, visual "paper trail" of the service interaction.
+* **CHECKSUMS_SHA256.csv:** A file containing cryptographic hashes to verify the integrity and authenticity of all evidence files.
 
 ---
 

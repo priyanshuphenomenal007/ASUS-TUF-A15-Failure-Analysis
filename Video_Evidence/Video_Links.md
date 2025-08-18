@@ -35,7 +35,7 @@ The following four videos provide a complete, second-by-second account of the cr
 - **Link:** [https://drive.google.com/file/d/1jLJ1Kqf4uQd25rhiUo5tfs9C8V4ZDiOD/view?usp=drive_link]
 
 #### 6. Hardware Error - Detail View
-- **Link:** [Phttps://drive.google.com/file/d/1c7KBb6RErva3nib7NTVydMt-L-t6NvLV/view?usp=drive_link]
+- **Link:** [https://drive.google.com/file/d/1c7KBb6RErva3nib7NTVydMt-L-t6NvLV/view?usp=drive_link]
 
 #### 7. Hardware Error - XML Proof of Authenticity
 - **Link:** [https://drive.google.com/file/d/13qNSFMl50ClqbRxWv4p2KI4vSzOPZ8W-/view?usp=drive_link]

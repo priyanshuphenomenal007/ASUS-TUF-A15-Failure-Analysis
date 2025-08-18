@@ -11,7 +11,7 @@
 * **/baseline/:** System identity, driver manifests, and power/battery health reports.
 * **/evidence/runs/:** Timestamped folders with raw `.evtx` system logs and focused `.csv` reports of crashes.
 * **/snippets/:** Detailed XML data for four distinct, critical `Kernel-Power` failures.
-* **/Video_Evidence/:** A file with links to video proof of the dGPU disappearing, a BSOD, and other system instabilities.
+* **/Video_Evidence/:** A file with links to video proof of all documented failure modes.
 * **/reports/:** Visual summaries from the Windows Reliability Monitor and Event Viewer.
 * **/evidence/HWiNFO.CSV**: A detailed, timestamped log of system thermals and voltages.
 
@@ -23,4 +23,4 @@ Evidence was collected using standard, first-party Microsoft tools (`wevtutil`, 
 ---
 
 ## Objective of this Repository
-The objective of this public repository is to provide a detailed, verifiable, and evidence-based case study of a recurring hardware fault and the subsequent service failures. It is intended as a resource for other consumers and to advocate for greater corporate accountability.
+The objective of this public repository is to provide a detailed, verifiable, and evidence-based case study of a recurring hardware fault and the subsequent service failures. It is intended as a resource for other consumers and to advocate for greater corporate accountability and more thorough diagnostic procedures in the consumer electronics industry.

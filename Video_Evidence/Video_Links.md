@@ -11,3 +11,7 @@ This video captures the catastrophic Blue Screen of Death that occurred just hou
 ### 3. Forensic Video - Disappearing GPU (Aug 17)
 This comprehensive video documents the intermittent disappearance of the NVIDIA GPU from Device Manager, confirms the system's serial number, and shows the corresponding Kernel-Power error in the Event Viewer.
 - **Link:** [https://drive.google.com/file/d/1tUF1UiIOn581YWLJRIyZHZZSlNAkMDSV/view?usp=sharing](https://drive.google.com/file/d/1tUF1UiIOn581YWLJRIyZHZZSlNAkMDSV/view?usp=sharing)
+
+### 4. GPU Detected but Unresponsive (Aug 18)
+This video proves the GPU is in a "zombie" state. It is detected by Windows Device Manager but shows 0% utilization in Task Manager and cannot be activated by ASUS's own Armoury Crate software.
+- **Link:** [https://drive.google.com/file/d/1GUabXjt-jiufyrYfqsnVCNUOHeWcY5JN/view?usp=drive_link]

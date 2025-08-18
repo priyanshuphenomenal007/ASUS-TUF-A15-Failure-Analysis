@@ -17,8 +17,8 @@ The following two videos, captured one hour apart without a system reboot, docum
 
 - **Part 1: GPU Unresponsive State ("Zombie Mode")**
   This video shows the GPU is detected by Windows but has 0% utilization in Task Manager and cannot be activated by ASUS's own Armoury Crate software.
-  - **Link:** [Paste the Google Drive link for `GPU_Unresponsive_State...mp4` here]
+  - **Link:** [https://drive.google.com/file/d/1GUabXjt-jiufyrYfqsnVCNUOHeWcY5JN/view?usp=drive_link]
 
 - **Part 2: GPU Disappeared from Device Manager**
   This video, taken an hour later, shows the GPU has now completely disappeared from Device Manager, proving a final hardware disconnection.
-  - **Link:** [Paste the Google Drive link for `GPU_Disappeared_...mp4` here]
+  - **Link:** [https://drive.google.com/file/d/1tksWOY1-w50jQFB2diSR2ZQZp17qngyz/view?usp=drive_link]

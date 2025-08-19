@@ -2,15 +2,15 @@
 **Prepared:** 2025-08-19 | **Owner:** Priyanshu Kumar
 
 ## Summary
-- **A complete service failure has been documented:**
-  - An initial, detailed report with technical logs proving a hardware fault was sent on Aug 16.
-  - The on-site technician dismissed this evidence, diagnosed a "software issue," and performed a failed Windows reinstall.
-  - A follow-up email from ASUS on Aug 18 revealed that a **"required part has been received,"** contradicting the on-site diagnosis and proving a lack of transparency with the customer.
-- This service failure is in response to a **systemic hardware fault**, proven by multiple BSODs (`BugcheckCode 159`), hard freezes, and the live, real-time degradation of the NVIDIA GPU from a non-responsive "zombie" state to a complete hardware disconnection.
-- HWiNFO logs confirm all failures occur under normal thermal conditions, ruling out overheating.
+- **Multiple, Evolving Failure Modes Documented:**
+  - The system suffers from recurring **unclean shutdowns** (Event ID **41**), including a confirmed **BSOD (`BugcheckCode 159`)**.
+  - Raw XML reports from the Windows Reliability Monitor confirm critical failures of **NVIDIA's `NVDisplay.Container.exe`**.
+  - **ASUS's own Armoury Crate software** logs and visually confirms the dedicated GPU (dGPU) is in a non-responsive "zombie" state with **0% utilization**.
+  - Video evidence documents the **live degradation of the dGPU** from this "zombie" state to a **complete hardware disconnection** from Device Manager, all without a system reboot.
+- **HWiNFO logs** confirm all failures occur under normal thermal conditions, ruling out overheating.
 
 ## Interpretation
-The evidence proves a catastrophic failure of not only the product's hardware but also of the company's entire diagnostic and service process. The internal diagnosis (requiring a part) and the on-site resolution (software reinstall) were contradictory, and the true nature of the fault was not communicated transparently.
+The pattern of BSODs, hard freezes, the live degradation of the GPU, and critical failures logged by both Windows and ASUS's own software overwhelmingly points to a systemic hardware fault with the motherboard.
 
 ## Objective
-The objective of this brief and its associated repository is to serve as a public, evidence-based case study of a recurring hardware fault and a negligent service process.
+The objective of this brief and its associated repository is to serve as a public, evidence-based case study of a recurring hardware fault and subsequent service failures.

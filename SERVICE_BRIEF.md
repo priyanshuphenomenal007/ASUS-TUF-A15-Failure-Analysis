@@ -1,5 +1,5 @@
-﻿# Service Review Brief — ASUS TUF A15 (FA506ICB)
-**Prepared:** [redacted-phone] | **Owner:** Priyanshu Kumar
+# Service Review Brief — ASUS TUF A15 (FA506ICB)
+**Prepared:** 2025-08-19 | **Owner:** Priyanshu Kumar
 
 ## Summary
 - **A complete service failure has been documented:**

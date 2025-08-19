@@ -1,5 +1,5 @@
 ﻿# Failure Analysis — ASUS TUF Gaming A15 (FA506ICB)
-**Report Date:** [redacted-phone] | **System S/N:** N7NRCX07W******304
+**Report Date:** [2025-08-19] | **System S/N:** N7NRCX07W******304
 
 > **Scope:** This repository documents a complete, end-to-end failure of both product hardware and service process. The evidence culminates in a definitive, timestamped "Hardware error" logged by the Windows Reliability Monitor on Aug 19, which is cross-referenced with a live HWiNFO log that proves the failure occurred under safe thermal conditions (GPU at 49°C). This irrefutably proves a systemic hardware fault.
 

@@ -1,5 +1,5 @@
 ﻿# Service Review Brief — ASUS TUF A15 (FA506ICB)
-**Prepared:** 2025-08-19 | **Owner:** Priyanshu Kumar
+**Prepared:** [redacted-phone] | **Owner:** Priyanshu Kumar
 
 ## Summary
 - **Multiple, Evolving Failure Modes Documented:**

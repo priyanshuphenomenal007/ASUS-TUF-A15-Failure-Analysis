@@ -1,5 +1,5 @@
 ﻿# Failure Analysis — ASUS TUF Gaming A15 (FA506ICB)
-**Report Date:** 2025-08-19 | **System S/N:** N7NRCX07W******304
+**Report Date:** [redacted-phone] | **System S/N:** N7NRCX07W******304
 
 > **Scope:** The evidence within this repository documents a pattern of recurring and evolving critical system failures. The data includes raw XML and `.rml` logs from both Windows and ASUS's own Armoury Crate software, which explicitly log critical failures of NVIDIA services and a non-responsive "zombie" state for the dedicated GPU. This is corroborated by video evidence of the dGPU's live degradation and HWiNFO logs that rule out overheating as a cause.
 

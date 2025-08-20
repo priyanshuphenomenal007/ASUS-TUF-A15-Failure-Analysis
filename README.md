@@ -1,5 +1,5 @@
 ﻿# Failure Analysis — ASUS TUF Gaming A15 (FA506ICB)
-**Report Date:** [redacted-phone] | **System S/N:** N7NRCX07W******304
+**Report Date:** 2025-08-20 | **System S/N:** N7NRCX07W******304
 
 > **Scope:** This repository documents a pattern of chronic and evolving critical system failures, with verifiable **critical events logged on five consecutive days** immediately following an official service visit that incorrectly diagnosed the unit as "working fine." The data includes raw XML reports, video of a degrading GPU, and HWiNFO logs that rule out overheating, which irrefutably proves a systemic hardware fault and a failed service process.
 

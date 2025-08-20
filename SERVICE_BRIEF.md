@@ -1,5 +1,5 @@
 ﻿# Service Review Brief — ASUS TUF A15 (FA506ICB)
-**Prepared:** [redacted-phone] | **Owner:** Priyanshu Kumar
+**Prepared:** 2025-08-20 | **Owner:** Priyanshu Kumar
 
 ## Summary
 - **A complete diagnostic and service failure has been proven:** After an initial failed service on Aug 16, communications from the technician on Aug 18 prove the company was still focused on an irrelevant Wi-Fi card replacement. This incorrect diagnosis was formally refuted on Aug 19 when a complete, evidence-backed GitHub report was presented to the technician and escalated to his seniors.

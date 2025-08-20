@@ -1,5 +1,5 @@
 ﻿# Failure Analysis — ASUS TUF Gaming A15 (FA506ICB)
-**Report Date:** [redacted-phone] | **System S/N:** N7NRCX07W******304
+**Report Date:** 2025-08-20 | **System S/N:** N7NRCX07W******304
 
 > **Scope:** This repository documents a pattern of chronic and evolving critical system failures, with verifiable **critical events logged on five consecutive days**. Crucially, it also documents a willfully negligent service process, culminating in communications from Aug 18 that prove the company's focus on an incorrect solution *before* being formally presented with the irrefutable evidence of a motherboard/GPU fault on Aug 19.
 

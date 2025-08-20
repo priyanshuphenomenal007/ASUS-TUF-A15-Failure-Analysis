@@ -1,5 +1,5 @@
 ﻿# Service Review Brief — ASUS TUF A15 (FA506ICB)
-**Prepared:** [redacted-phone] | **Owner:** Priyanshu Kumar
+**Prepared:** 2025-08-20 | **Owner:** Priyanshu Kumar
 
 ## Summary
 - **A complete diagnostic failure has been proven:** A signed ASUS Service Report from Aug 16 officially concluded the **"unit working fine"** after an OS reinstall. This was immediately followed by a cascade of **critical hardware failures on five consecutive days**.

@@ -16,3 +16,4 @@
 ---
 ## Objective of this Repository
 The objective of this public repository is to provide a detailed, verifiable, and evidence-based case study of a recurring hardware fault and the subsequent service failures, intended as a resource for other consumers and to advocate for greater corporate accountability.
+

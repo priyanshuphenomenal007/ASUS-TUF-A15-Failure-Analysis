@@ -11,3 +11,4 @@ The continuous, multi-day pattern of evolving hardware failures on a pristine op
 
 ## Objective
 The objective of this brief and its associated repository is to serve as a public, evidence-backed case study of a recurring hardware fault and a failed service process.
+

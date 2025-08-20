@@ -2,14 +2,11 @@
 **Prepared:** [redacted-phone] | **Owner:** Priyanshu Kumar
 
 ## Summary
-- **A complete diagnostic failure has been proven:** A signed ASUS Service Report from Aug 16 officially concluded the **"unit working fine"** after an OS reinstall. This was immediately followed by a cascade of **critical hardware failures on five consecutive days**.
-- **Multiple, Evolving Failure Modes:** The evidence includes recurring **unclean shutdowns** (`BugcheckCode 159`), critical failures of **NVIDIA's `NVDisplay.Container.exe`**, and the **live degradation of the dGPU** from an unresponsive "zombie" state to a complete hardware disconnection.
-- **HWiNFO logs** confirm all failures occur under normal thermal conditions, definitively ruling out overheating.
+- **A complete diagnostic and service failure has been proven:** After an initial failed service on Aug 16, communications from the technician on Aug 18 prove the company was still focused on an irrelevant Wi-Fi card replacement. This incorrect diagnosis was formally refuted on Aug 19 when a complete, evidence-backed GitHub report was presented to the technician and escalated to his seniors.
+- **The ignored evidence includes:** A definitive "Hardware error" logged by Windows while under live thermal monitoring (GPU at 49°C), multiple BSODs (`BugcheckCode 159`), and video of the GPU degrading in real-time from a "zombie" state to a complete hardware disconnection.
 
 ## Interpretation
-The continuous, multi-day pattern of evolving hardware failures on a pristine operating system, immediately following a service visit that officially declared the unit "fine," overwhelmingly points to a systemic hardware fault and a negligent service and diagnostic process.
+The company's persistent focus on an incorrect solution, despite the escalating hardware failures, demonstrates a service and diagnostic process that is fundamentally broken and incapable of identifying complex, systemic faults.
 
 ## Objective
-The objective of this brief and its associated repository is to serve as a public, evidence-backed case study of a recurring hardware fault and a failed service process.
-
-
+The objective of this brief and its associated repository is to serve as a public, evidence-based case study of a recurring hardware fault and a willfully negligent service process.

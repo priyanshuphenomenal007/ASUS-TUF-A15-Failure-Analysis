@@ -14,3 +14,4 @@ The simultaneous failure of two separate, critical graphics components (NVIDIA a
 
 ## Objective
 The objective of this brief and its associated repository is to serve as a public, evidence-based case study of a recurring, systemic hardware fault and a subsequent negligent service process.
+

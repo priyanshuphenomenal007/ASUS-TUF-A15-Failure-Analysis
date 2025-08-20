@@ -2,6 +2,8 @@
 
 This file contains links to all video evidence, documenting a multi-day pattern of evolving hardware failures.
 
+---
+
 ### Historical Failures (Aug 16 - Aug 18)
 
 #### 1. Pre-Service Failure (Aug 16)
@@ -27,18 +29,8 @@ The following two videos document the live degradation of the NVIDIA GPU from a 
 
 ---
 
-### Definitive Failure Event (Aug 19)
+### **Definitive Systemic Failure (Aug 20)**
 
-The following four videos provide a complete, second-by-second account of the critical "Hardware error" event at 3:56 AM on August 19th, cross-referenced with the HWiNFO log that proves the system was operating under safe thermal conditions.
-
-#### 5. Hardware Error - Summary View
-- **Link:** [https://drive.google.com/file/d/1c7KBb6RErva3nib7NTVydMt-L-t6NvLV/view?usp=drive_link]
-
-#### 6. Hardware Error - Detail View
-- **Link:** [https://drive.google.com/file/d/1jLJ1Kqf4uQd25rhiUo5tfs9C8V4ZDiOD/view?usp=drive_link]
-
-#### 7. Hardware Error - XML Proof of Authenticity
-- **Link:** [https://drive.google.com/file/d/1ej6yQItvDNbVf28vqTb6vZ19PNZLnE4g/view?usp=drive_link]
-
-#### 8. Hardware Error - Aftermath (GPU Missing)
-- **Link:** [https://drive.google.com/file/d/13qNSFMl50ClqbRxWv4p2KI4vSzOPZ8W-/view?usp=drive_link]
+#### 5. Integrated GPU Failure - AMD Radeon (Code 31)
+This video provides definitive proof of a systemic failure, showing the integrated AMD Radeon GPU in a failed state with a "Code 31" error in Device Manager. This confirms the instability is not isolated to the NVIDIA dGPU and points to a core motherboard fault.
+- **Link:** [https://drive.google.com/file/d/1tD5bTpJ9wt9ODB4OhKTxqjJNVVQkfSlu/view?usp=drive_link](https://drive.google.com/file/d/1tD5bTpJ9wt9ODB4OhKTxqjJNVVQkfSlu/view?usp=drive_link)

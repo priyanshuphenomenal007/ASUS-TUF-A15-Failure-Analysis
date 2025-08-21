@@ -1,5 +1,5 @@
 ﻿# Service Review Brief — ASUS TUF A15 (FA506ICB)
-**Prepared:** [redacted-phone] | **Owner:** Priyanshu Kumar
+**Prepared:** 2025-08-21 | **Owner:** Priyanshu Kumar
 
 ## Summary
 - **Systemic, Multi-Component Hardware Failure Documented:**

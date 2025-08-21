@@ -1,7 +1,7 @@
 ﻿------------------
 System Information
 ------------------
-      Time of this report: 8/18/2025, 09:17:13
+      Time of this report: 8/21/2025, 12:38:25
              Machine name: LAPTOP-NSMN8S9D
                Machine Id: {1E6A16E8-5097-4AB5-BE2D-F096EDCA6A56}
          Operating System: Windows 11 Home Single Language 64-bit (10.0, Build 26100) (26100.ge_release.[redacted-phone])
@@ -12,15 +12,15 @@ System Information
                 Processor: AMD Ryzen 7 4800H with Radeon Graphics          (16 CPUs), ~2.9GHz
                    Memory: 16384MB RAM
       Available OS Memory: 15790MB RAM
-                Page File: 8475MB used, 10258MB available
+                Page File: 12524MB used, 6208MB available
               Windows Dir: C:\WINDOWS
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
          User DPI Setting: 120 DPI (125 percent)
-       System DPI Setting: 120 DPI (125 percent)
-          DWM DPI Scaling: UnKnown
-                 Miracast: Available, with HDCP
-Microsoft Graphics Hybrid: Supported
+       System DPI Setting: 96 DPI (100 percent)
+          DWM DPI Scaling: Disabled
+                 Miracast: Not Available
+Microsoft Graphics Hybrid: Not Supported
  DirectX Database Version: 1.7.3
    Auto Super Res Version: Unknown
        System Mux Support: Mux Support Inactive - Ok
@@ -31,7 +31,7 @@ Microsoft Graphics Hybrid: Supported
 ------------
 DxDiag Notes
 ------------
-      Display Tab 1: No problems found.
+      Display Tab 1: There is a problem with AMD Radeon(TM) Graphics device. For more information, search for 'graphics device driver error code 31' 
       Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
@@ -51,29 +51,29 @@ DirectShow:  0/6 (retail)
 ---------------
 Display Devices
 ---------------
-           Card name: AMD Radeon(TM) Graphics
+           Card name: Microsoft Basic Display Driver
         Manufacturer: Advanced Micro Devices, Inc.
            Chip type: AMD Radeon Graphics Processor (0x1636)
             DAC type: Internal DAC(400MHz)
-         Device Type: Full Device (POST)
+         Device Type: Display-Only Device
           Device Key: Enum\PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6
-       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
- Device Problem Code: No Problem
+       Device Status: 01802400 [DN_HAS_PROBLEM|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
+ Device Problem Code: 0000001F [CM_PROB_FAILED_ADD] 
  Driver Problem Code: Unknown
-      Display Memory: 8390 MB
-    Dedicated Memory: 495 MB
+      Display Memory: 7894 MB
+    Dedicated Memory: 0 MB
        Shared Memory: 7894 MB
-        Current Mode: 1920 x 1080 (32 bit) (144Hz)
+        Current Mode: 1920 x 1080 (32 bit) (64Hz)
          HDR Support: Not Supported
     Display Topology: Internal
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
-     Color Primaries: Red(0.589844,0.349609), Green(0.330078,0.554688), Blue(0.153320,0.119141), White Point(0.313477,0.329102)
-   Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
-        Monitor Name: Generic PnP Monitor
+     Color Primaries: Red(0.000000,0.000000), Green(0.000000,0.000000), Blue(0.000000,0.000000), White Point(0.000000,0.000000)
+   Display Luminance: Min Luminance = 0.000000, Max Luminance = 0.000000, MaxFullFrameLuminance = 0.000000
+        Monitor Name: Generic Non-PnP Monitor
        Monitor Model: unknown
-          Monitor Id: CMN1521
-         Native Mode: 1920 x 1080(p) (144.003Hz)
-         Output Type: Internal
+          Monitor Id: 
+         Native Mode: unknown
+         Output Type: Other
 Monitor Capabilities: HDR Not Supported
 Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
       Advanced Color: Not Supported
@@ -84,90 +84,367 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
  Driver File Version: 31.00.12014.0006 (English)
       Driver Version: 31.0.12014.6
          DDI Version: 12
-  Adapter Attributes: HARDWARE_TYPE_GPU,D3D11_GRAPHICS,D3D12_GRAPHICS,D3D12_CORE_COMPUTE,D3D12_GENERIC_ML,D3D12_GENERIC_MEDIA
+  Adapter Attributes: Unknown
       Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1,1_0_CORE
-        Driver Model: WDDM 3.1
+        Driver Model: WDDM 1.3
  Hardware Scheduling: DriverSupportState:AlwaysOff Enabled:False 
          Displayable: Not Supported 
- Graphics Preemption: Primitive
+ Graphics Preemption: DMA
   Compute Preemption: DMA
             Miracast: Not Supported by Graphics driver
       Detachable GPU: No
- Hybrid Graphics GPU: Integrated
+ Hybrid Graphics GPU: Not Supported
      GPU Mux Support: None, Uninitialized - Unknown Error
       Power P-states: Not Supported
-      Virtualization: Paravirtualization 
-          Block List: DISABLE_HWSCH
-  Catalog Attributes: Universal:False Declarative:True 
+      Virtualization: Not Supported
+          Block List: No Blocks
+  Catalog Attributes: N/A
    Driver Attributes: Final Retail
     Driver Date/Size: 7/12/2022 5:30:00 AM, 1856976 bytes
          WHQL Logo'd: Yes
      WHQL Date Stamp: Unknown
-   Device Identifier: {D7B71EE2-5576-11CF-F[redacted-phone]C2D235}
-           Vendor ID: 0x1002
-           Device ID: 0x1636
-           SubSys ID: 0x16AD1043
-         Revision ID: 0x00C6
+   Device Identifier: {D7B71AF4-43CC-11CF-1071-F445AFC2C735}
+           Vendor ID: 0x1414
+           Device ID: 0x008C
+           SubSys ID: 0x00000000
+         Revision ID: 0x0000
   Driver Strong Name: oem86.inf:cb0ae414f65d0a95:ati2mtag_Renoir:31.0.12014.6:PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6
       Rank Of Driver: 00CF0000
-         Video Accel: Unknown
-         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  {86695F12-340E-4F04-9FD3-9253DD327460}  DXVA2_ModeH264_VLD_NoFGT  {4245F676-2BBC-4166-A0BB-54E7B849C380}  {6719B6FB-5CAD-4ACB-B00A-F3BFDEC38727}  {9901CCD3-CA12-4B7E-867A-E2223D9255C3}  DXVA2_ModeHEVC_VLD_Main  {EA72396A-67EC-4781-BEDE-56F498F04EF2}  {C152CA8F-738C-461B-AD89-FC292CF8F162}  {514A356C-7027-4AFF-8A60-AFD2C1F672F1}  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeVC1_VLD  {CA15D19A-2B48-43D6-979E-7A6E9C802FF8}  {D1C20509-AE7B-4E72-AE3B-49F88D58992F}  {84AD67F6-4C21-419A-9F0B-24F0578906C1}  {725AD240-786C-471E-AD3C-38F739936517}  {95664FF5-9E03-4C74-BB4F-9178D6035E58}  {5EF7D40D-5B96-49E7-B[redacted-phone]A4CF}  DXVA2_ModeHEVC_VLD_Main10  {65D1FA41-58AF-453A-9CAB-5D981156DA9F}  {2DB154B6-DBB2-4079-A3FF-60D7A898A6AB}  {C74A3FD0-D713-4581-A02E-8EDFB112ACE3}  DXVA2_ModeVP9_VLD_Profile0  DXVA2_ModeVP9_VLD_10bit_Profile2  {603A4756-A864-4F91-BB62-2C935B7A1391}  {C58B9A06-7E89-11E1-BB00-70B34824019B}  
+         Video Accel: 
+         DXVA2 Modes: Unknown
          D3D12 Encode Modes: 
-      Deinterlace Caps: n/a
+    Deinterlace Caps: {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YUY2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(UYVY,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(YV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(NV12,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                      {[redacted-phone]}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
         D3D9 Overlay: Not Supported
              DXVA-HD: Not Supported
         DDraw Status: Enabled
           D3D Status: Enabled
           AGP Status: Enabled
-       MPO MaxPlanes: 2
-            MPO Caps: ROTATION,VERTICAL_FLIP,HORIZONTAL_FLIP,RGB,YUV,BILINEAR,HIGH_FILTER,STRETCH_YUV,STRETCH_RGB,IMMEDIATE,HDR (MPO3)
-         MPO Stretch: 16.000X - 0.250X
-     MPO Media Hints: rotation, resizing, colorspace Conversion 
-         MPO Formats: NV12
-                          YCBCR_STUDIO_G22_LEFT_P601
-                          YCBCR_STUDIO_G22_LEFT_P709
-                      P010
-                          YCBCR_STUDIO_G22_LEFT_P709
-                          YCBCR_FULL_G22_LEFT_P[redacted-phone]_OPAQUE
-                          YCBCR_STUDIO_G22_LEFT_P601
-                          YCBCR_STUDIO_G22_LEFT_P709
-                      R16G16B16A16_FLOAT
-                          RGB_FULL_G10_NONE_P709
-                      R10G10B10A2_UNORM
-                          RGB_FULL_G22_NONE_P709
-                          RGB_STUDIO_G22_NONE_P709
-                          RGB_STUDIO_G22_NONE_P2020
-                          RGB_FULL_G22_NONE_P2020
-                          RGB_STUDIO_G24_NONE_P709
-                          RGB_STUDIO_G24_NONE_P2020
-                      R8G8B8A8_UNORM
-                          RGB_FULL_G22_NONE_P709
-                          RGB_STUDIO_G22_NONE_P709
-                          RGB_STUDIO_G22_NONE_P2020
-                          RGB_FULL_G22_NONE_P2020
-                          RGB_STUDIO_G24_NONE_P709
-                          RGB_STUDIO_G24_NONE_P2020
-                      B8G8R8A8_UNORM
-                          RGB_FULL_G22_NONE_P709
-                          RGB_STUDIO_G22_NONE_P709
-                          RGB_STUDIO_G22_NONE_P2020
-                          RGB_FULL_G22_NONE_P2020
-                          RGB_STUDIO_G24_NONE_P709
-                          RGB_STUDIO_G24_NONE_P2020
-    PanelFitter Caps: ROTATION,VERTICAL_FLIP,HORIZONTAL_FLIP,RGB,YUV,BILINEAR,HIGH_FILTER,STRETCH_YUV,STRETCH_RGB,IMMEDIATE,HDR (MPO3)
- PanelFitter Stretch: 16.000X - 0.250X
-   Extension Drivers: 
-             Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\amdwddme.inf_amd64_[redacted-phone]c93dc\amdwddme.inf
-          Driver Version: 30.0.13002.1001
-             Driver Date: 08/05/2021
-         Driver Provider: Advanced Micro Devices, Inc.
-      Catalog Attributes: Universal:False Declarative:True 
-   Component Drivers: 
-             Driver Name: Unknown
-          Driver Version: Unknown
-             Driver Date: Unknown
-         Driver Provider: Unknown
-      Catalog Attributes: N/A
+       MPO MaxPlanes: 1
+            MPO Caps: Not Supported
+         MPO Stretch: Not Supported
+     MPO Media Hints: Not Supported
+         MPO Formats: Not Supported
+    PanelFitter Caps: Not Supported
+ PanelFitter Stretch: Not Supported
 
            Card name: NVIDIA GeForce RTX 3050 Laptop GPU
         Manufacturer: NVIDIA
@@ -187,13 +464,13 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
  Display Color Space: Unknown
      Color Primaries: Unknown
    Display Luminance: Unknown
-         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvldumdx.dll
- Driver File Version: 30.00.0015.1278 (English)
-      Driver Version: 30.0.15.1278
+         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvldumdx.dll
+ Driver File Version: 31.00.0015.1691 (English)
+      Driver Version: 31.0.15.1691
          DDI Version: 12
   Adapter Attributes: HARDWARE_TYPE_GPU,D3D11_GRAPHICS,D3D12_GRAPHICS,D3D12_CORE_COMPUTE,D3D12_GENERIC_ML,D3D12_GENERIC_MEDIA
       Feature Levels: 12_2,12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1,1_0_CORE
-        Driver Model: WDDM 3.0
+        Driver Model: WDDM 3.1
  Hardware Scheduling: DriverSupportState:Stable Enabled:True 
          Displayable: Supported 
  Graphics Preemption: Pixel
@@ -207,7 +484,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
           Block List: No Blocks
   Catalog Attributes: Universal:False Declarative:True 
    Driver Attributes: Final Retail
-    Driver Date/Size: 5/5/2022 5:30:00 AM, 714432 bytes
+    Driver Date/Size: 7/20/2022 5:30:00 AM, 1130000 bytes
          WHQL Logo'd: Yes
      WHQL Date Stamp: Unknown
    Device Identifier: Unknown
@@ -215,7 +492,7 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
            Device ID: 0x25A2
            SubSys ID: 0x16AD1043
          Revision ID: 0x00A1
-  Driver Strong Name: oem93.inf:0f066de3cac76423:Section189:30.0.15.1278:pci\ven_10de&dev_25a2&subsys_16ad1043
+  Driver Strong Name: oem9.inf:0f066de3cac76423:Section197:31.0.15.1691:pci\ven_10de&dev_25a2&subsys_16ad1043
       Rank Of Driver: 00CF0001
          Video Accel: Unknown
          DXVA2 Modes: {86695F12-340E-4F04-9FD3-9253DD327460}  DXVA2_ModeMPEG2_VLD  {6F3EC[redacted-phone]CC-8063-65CC3CB36616}  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  {32FCFE3F-DE46-4A49-861B-AC71110649D5}  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  {20BB8B0A-97AA-4571-8E99-64E60606C1A6}  {15DF9B21-06C4-47F1-841E-A67C97D7F312}  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  {9947EC6F-689B-11DC-A320-0019DBBC4184}  {33FCFE41-DE46-4A49-861B-AC71110649D5}  DXVA2_ModeVP9_VLD_Profile0  DXVA2_ModeVP9_VLD_10bit_Profile2  {DDA19DC7-93B5-49F5-A9B3-2BDA28A2CE6E}  {B8BE4CCB-CF53-46BA-8D59-D6B8A6DA5D2A}  {6AFFD11E-1D96-42B1-A215-93A31F09A53D}  {914C84A3-4078-4FA9-984C-E2F262CB5C9C}  {8A1A1031-29BC-46D0-A007-E9B092CA6767}  
@@ -382,28 +659,28 @@ Vendor/Product ID: n/a
 Vendor/Product ID: 0x04F3, 0x307A
         FF Driver: n/a
 
+      Device Name: 2.4G INPUT DEVICE
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x062A, 0x4C01
+        FF Driver: n/a
+
+      Device Name: 2.4G INPUT DEVICE
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x062A, 0x4C01
+        FF Driver: n/a
+
+      Device Name: 2.4G INPUT DEVICE
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x062A, 0x4C01
+        FF Driver: n/a
+
       Device Name: ASUS Wireless Radio Control
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: n/a
-        FF Driver: n/a
-
-      Device Name: 2.4G INPUT DEVICE
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x062A, 0x4C01
-        FF Driver: n/a
-
-      Device Name: 2.4G INPUT DEVICE
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x062A, 0x4C01
-        FF Driver: n/a
-
-      Device Name: 2.4G INPUT DEVICE
-         Attached: 1
-    Controller ID: 0x0
-Vendor/Product ID: 0x062A, 0x4C01
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -480,7 +757,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 70.5 GB
+ Free Space: 73.9 GB
 Total Space: 189.8 GB
 File System: NTFS
       Model: SAMSUNG MZVLQ512HBLU-00B00
@@ -492,7 +769,7 @@ File System: NTFS
       Model: SAMSUNG MZVLQ512HBLU-00B00
 
       Drive: E:
- Free Space: 276.7 GB
+ Free Space: 275.0 GB
 Total Space: 953.9 GB
 File System: NTFS
       Model: Samsung SSD 980 1TB
@@ -558,196 +835,196 @@ Device ID: PCI\VEN_1022&DEV_1633&SUBSYS_16821043&REV_00\3&11583659&0&09
 
      Name: NVIDIA GeForce RTX 3050 Laptop GPU
 Device ID: PCI\VEN_10DE&DEV_25A2&SUBSYS_16AD1043&REV_A1\4&2B1A879F&0&0009
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NVWMI\nvPerfProvider.man, 5/5/2022 10:39:09, 14175 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NVWMI\nvWmi.mof, 5/5/2022 10:39:09, 148921 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NVWMI\nvWmi64.exe, 2.36.0000.0000 (English), 5/19/2022 16:07:20, 4476640 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\MessageBus.dll, 1.22.2758.1620 (English), 5/19/2022 16:06:14, 7535704 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\NVDisplay.Container.exe, 1.37.3103.4323 (English), 5/19/2022 16:06:16, 1013832 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\NvContainerRecovery.bat, 5/5/2022 10:39:09, 1951 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\dlsargs.xml, 5/5/2022 10:39:09, 544 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\dlsnetparams.csv, 5/5/2022 10:39:09, 1191192 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\messagebus_client.conf, 5/5/2022 10:39:09, 57 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\nvgwls.exe, 5/19/2022 16:06:16, 33230048 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\nvtopps.db3, 5/5/2022 10:39:09, 122880 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\LocalSystem\NvXDCore.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:22, 1849936 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\LocalSystem\NvcDispCorePlugin.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:18, 521952 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\LocalSystem\NvcDispWatchdog.dll, 1.37.3103.4323 (English), 5/19/2022 16:06:20, 736472 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\LocalSystem\_DisplayDriverRAS.dll, 1.10.0000.0000 (English), 5/19/2022 16:06:26, 2617056 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\LocalSystem\_NvMsgBusBroadcast.dll, 1.37.3103.4323 (English), 5/19/2022 16:06:28, 3033656 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\LocalSystem\messagebus.conf, 5/5/2022 10:39:09, 57 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\LocalSystem\wksServicePluginZ.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:24, 1245912 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\Session\NvFBCPlugin.dll, 6.14.0015.1278 (English), 5/19/2022 16:06:30, 1381088 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\Session\_nvppo.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:38, 1610840 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\Session\_nvtopps.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:42, 14275664 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\Session\nvprofileupdaterplugin.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:34, 2192096 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\Session\nvxdsyncplugin.dll, 8.17.0015.1278 (English), 5/19/2022 16:06:36, 1819360 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\Display.NvContainer\plugins\Session\wksServicePlugin.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:36, 623328 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\dbInstaller.exe, 30.00.0015.1278 (English), 5/19/2022 15:59:00, 730320 bytes
-   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\nvdrsdb.bin, 5/5/2022 10:39:09, 1842116 bytes
-   Driver: C:\WINDOWS\system32\nvcpl.dll, 8.17.0015.1278 (English), 5/19/2022 16:00:36, 5729472 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nv3dappshext.dll, 6.14.0015.1278 (English), 5/19/2022 15:59:16, 1003064 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nv3dappshextr.dll, 6.14.0015.1278 (English), 5/19/2022 15:59:18, 93392 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcoproc.bin, 5/5/2022 10:39:09, 9991647 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcpl.dll, 8.17.0015.1278 (English), 5/19/2022 16:00:36, 5729472 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdevtools.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:20, 4551256 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdevtoolsr.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:24, 235608 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdisps.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:28, 11605592 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdispsr.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:30, 11321432 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvgames.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:54, 12405952 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvgamesr.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:56, 12651088 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvlicensings.dll, 6.14.0015.1278 (English), 5/19/2022 16:02:42, 4553288 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvlicensingsr.dll, 6.14.0015.1278 (English), 5/19/2022 16:02:46, 295616 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvshext.dll, 1.02.0000.0001 (English), 5/19/2022 16:04:48, 131296 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsmartmax.dll, 6.14.0010.10003 (English), 5/19/2022 16:04:50, 201920 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsmartmax64.dll, 6.14.0010.10003 (English), 5/19/2022 16:04:52, 241752 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsmartmaxapp.exe, 6.14.0010.10003 (English), 5/19/2022 16:04:54, 275032 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsmartmaxapp64.exe, 6.14.0010.10003 (English), 5/19/2022 16:04:56, 284864 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsvc64.dll, 30.00.0015.1278 (English), 5/19/2022 16:04:58, 2657336 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsvcr.dll, 30.00.0015.1278 (English), 5/19/2022 16:05:00, 1770040 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsvs.dll, 30.00.0015.1278 (English), 5/19/2022 16:05:02, 5065272 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvsvsr.dll, 30.00.0015.1278 (English), 5/19/2022 16:05:06, 1949240 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvui.dll, 8.17.0015.1278 (English), 5/19/2022 16:05:10, 6643256 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvuir.dll, 8.17.0015.1278 (English), 5/19/2022 16:05:12, 2613440 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvvitvs.dll, 30.00.0015.1278 (English), 5/19/2022 16:05:20, 7410368 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvvitvsr.dll, 30.00.0015.1278 (English), 5/19/2022 16:05:22, 4115000 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvwss.dll, 30.00.0015.1278 (English), 5/19/2022 16:05:30, 12213320 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvwssr.dll, 30.00.0015.1278 (English), 5/19/2022 16:05:34, 9361088 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvxdapix.dll, 8.17.0015.1278 (English), 5/19/2022 16:05:40, 9317088 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvxdbat.dll, 8.17.0015.1278 (English), 5/19/2022 16:05:44, 1626680 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvxdplcy.dll, 8.17.0015.1278 (English), 5/19/2022 16:05:48, 1880120 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libcuda.so, 5/5/2022 10:39:09, 137240 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libcuda.so.1, 5/5/2022 10:39:09, 137240 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libcuda.so.1.1, 5/5/2022 10:39:09, 137240 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvcuvid.so, 5/5/2022 10:39:09, 5864608 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvcuvid.so.1, 5/5/2022 10:39:09, 5864608 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvdxdlkernels.so, 5/5/2022 10:39:09, 35512144 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-encode.so, 5/5/2022 10:39:09, 424400 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-encode.so.1, 5/5/2022 10:39:09, 424400 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-ml.so.1, 5/5/2022 10:39:09, 207544 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-opticalflow.so, 5/5/2022 10:39:09, 354768 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-opticalflow.so.1, 5/5/2022 10:39:09, 354768 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\libnvwgf2umx.so, 5/5/2022 10:39:09, 45922856 bytes
-   Driver: C:\WINDOWS\system32\lxss\lib\nvidia-smi, 5/5/2022 10:39:09, 690808 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NVWMI\nvPerfProvider.man, 7/21/2022 11:00:00, 14175 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NVWMI\nvWmi.mof, 7/21/2022 11:00:00, 148921 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NVWMI\nvWmi64.exe, 2.36.0000.0000 (English), 7/29/2022 10:56:36, 4486648 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\MessageBus.dll, 1.22.2758.1620 (English), 7/29/2022 10:55:40, 7536640 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\NVDisplay.Container.exe, 1.37.3103.4323 (English), 7/29/2022 10:55:46, 1014776 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\NvContainerRecovery.bat, 7/21/2022 11:00:00, 1951 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\dlsargs.xml, 7/21/2022 11:00:00, 544 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\dlsnetparams.csv, 7/21/2022 11:00:00, 1191192 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\messagebus_client.conf, 7/21/2022 11:00:00, 57 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\nvgwls.exe, 7/29/2022 10:55:48, 33231864 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\nvtopps.db3, 7/21/2022 11:00:00, 126976 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\LocalSystem\NvXDCore.dll, 31.00.0015.1691 (English), 7/29/2022 10:55:52, 2042360 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\LocalSystem\NvcDispCorePlugin.dll, 31.00.0015.1691 (English), 7/29/2022 10:55:48, 523768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\LocalSystem\NvcDispWatchdog.dll, 1.37.3103.4323 (English), 7/29/2022 10:55:50, 738296 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\LocalSystem\_DisplayDriverRAS.dll, 1.10.0000.0000 (English), 7/29/2022 10:55:54, 2618872 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\LocalSystem\_NvMsgBusBroadcast.dll, 1.34.3030.7627 (English), 7/29/2022 10:55:56, 3192312 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\LocalSystem\messagebus.conf, 7/21/2022 11:00:00, 57 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\LocalSystem\wksServicePluginZ.dll, 31.00.0015.1691 (English), 7/29/2022 10:55:52, 252920 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\Session\NvFBCPlugin.dll, 6.14.0015.1691 (English), 7/29/2022 10:55:56, 1387512 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\Session\_NvGSTPlugin.dll, 31.00.0015.1691 (English), 7/29/2022 10:56:06, 2489336 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\Session\_nvppo.dll, 31.00.0015.1691 (English), 7/29/2022 10:56:08, 1611752 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\Session\_nvtopps.dll, 31.00.0015.1691 (English), 7/29/2022 10:56:10, 11128824 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\Session\nvprofileupdaterplugin.dll, 31.00.0015.1691 (English), 7/29/2022 10:55:58, 2193896 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\Session\nvxdsyncplugin.dll, 8.17.0015.1691 (English), 7/29/2022 10:56:00, 1823216 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\Display.NvContainer\plugins\Session\wksServicePlugin.dll, 31.00.0015.1691 (English), 7/29/2022 10:56:02, 309744 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\dbInstaller.exe, 31.00.0015.1691 (English), 7/29/2022 10:48:42, 732152 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\Drs\nvdrsdb.bin, 7/21/2022 11:00:00, 1858640 bytes
+   Driver: C:\WINDOWS\system32\nvcpl.dll, 8.17.0015.1691 (English), 7/29/2022 10:49:36, 5735928 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nv3dappshext.dll, 6.14.0015.1691 (English), 7/29/2022 10:49:02, 1004008 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nv3dappshextr.dll, 6.14.0015.1691 (English), 7/29/2022 10:49:04, 95216 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvcoproc.bin, 7/21/2022 11:00:00, 10056297 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvcpl.dll, 8.17.0015.1691 (English), 7/29/2022 10:49:36, 5735928 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdevtools.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:20, 4555768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdevtoolsr.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:24, 240120 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdisps.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:28, 11612152 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdispsr.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:30, 11323384 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvgames.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:54, 12412416 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvgamesr.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:58, 12736512 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvlicensings.dll, 6.14.0015.1691 (English), 7/29/2022 10:51:42, 4556776 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvlicensingsr.dll, 6.14.0015.1691 (English), 7/29/2022 10:51:44, 297464 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvshext.dll, 1.02.0000.0001 (English), 7/29/2022 10:53:42, 133128 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsmartmax.dll, 6.14.0010.10003 (English), 7/29/2022 10:53:44, 203768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsmartmax64.dll, 6.14.0010.10003 (English), 7/29/2022 10:53:46, 242688 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsmartmaxapp.exe, 6.14.0010.10003 (English), 7/29/2022 10:53:48, 275976 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsmartmaxapp64.exe, 6.14.0010.10003 (English), 7/29/2022 10:53:50, 286712 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsvc64.dll, 31.00.0015.1691 (English), 7/29/2022 10:53:52, 2660344 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsvcr.dll, 31.00.0015.1691 (English), 7/29/2022 10:53:54, 1771008 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsvs.dll, 31.00.0015.1691 (English), 7/29/2022 10:53:56, 5067768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvsvsr.dll, 31.00.0015.1691 (English), 7/29/2022 10:53:58, 1950200 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvui.dll, 8.17.0015.1691 (English), 7/29/2022 10:54:02, 6646264 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvuir.dll, 8.17.0015.1691 (English), 7/29/2022 10:54:04, 2615304 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvvitvs.dll, 31.00.0015.1691 (English), 7/29/2022 10:54:12, 7417336 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvvitvsr.dll, 31.00.0015.1691 (English), 7/29/2022 10:54:12, 4134904 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvwss.dll, 31.00.0015.1691 (English), 7/29/2022 10:54:54, 12219368 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvwssr.dll, 31.00.0015.1691 (English), 7/29/2022 10:54:58, 9362920 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvxdapix.dll, 8.17.0015.1691 (English), 7/29/2022 10:55:02, 9364984 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvxdbat.dll, 8.17.0015.1691 (English), 7/29/2022 10:55:08, 1629672 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvxdplcy.dll, 8.17.0015.1691 (English), 7/29/2022 10:55:10, 1883112 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libcuda.so, 7/21/2022 11:00:00, 141464 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libcuda.so.1, 7/21/2022 11:00:00, 141464 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libcuda.so.1.1, 7/21/2022 11:00:00, 141464 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvcuvid.so, 7/21/2022 11:00:00, 5950624 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvcuvid.so.1, 7/21/2022 11:00:00, 5950624 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvdxdlkernels.so, 7/21/2022 11:00:00, 7547400 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-encode.so, 7/21/2022 11:00:00, 424400 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-encode.so.1, 7/21/2022 11:00:00, 424400 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-ml.so.1, 7/21/2022 11:00:00, 208496 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-opticalflow.so, 7/21/2022 11:00:00, 354768 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvidia-opticalflow.so.1, 7/21/2022 11:00:00, 354768 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\libnvwgf2umx.so, 7/21/2022 11:00:00, 45845584 bytes
+   Driver: C:\WINDOWS\system32\lxss\lib\nvidia-smi, 7/21/2022 11:00:00, 600472 bytes
    Driver: C:\WINDOWS\system32\DRIVERS\NVIDIA Corporation\license.txt, 5/5/2022 10:39:09, 28827 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\_nvngx.dll, 30.00.0015.1278 (English), 5/19/2022 16:06:12, 1541720 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\cudnn_infer64_7.dll, 5/19/2022 15:58:52, 22774200 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvngx.dll, 30.00.0014.9516 (English), 5/19/2022 16:02:52, 488640 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvngx_update.exe, 30.00.0015.1278 (English), 5/19/2022 16:03:02, 1188032 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvngxdlss.dll, 5/19/2022 16:02:56, 27328 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\FreqTransfer32.exe, 5/19/2022 16:06:48, 3705944 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\FreqTransfer64.exe, 5/19/2022 16:06:50, 4006488 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\GreenScreenBG01.jpg, 5/5/2022 10:39:09, 281528 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\GreenScreenBG02.jpg, 5/5/2022 10:39:09, 499736 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\HighresBlender32.exe, 5/19/2022 16:06:52, 3812576 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\HighresBlender64.exe, 5/19/2022 16:06:54, 4108888 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\NvCamera32.dll, 7.01.0797.0811 (English), 5/19/2022 16:06:54, 8048184 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\NvCamera64.dll, 7.01.0797.0811 (English), 5/19/2022 16:06:58, 8544984 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\NvCameraAllowlisting32.dll, 7.01.0797.0811 (English), 5/19/2022 16:07:00, 560320 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\NvCameraAllowlisting64.dll, 7.01.0797.0811 (English), 5/19/2022 16:07:04, 705112 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\NvCameraEnable.exe, 5/19/2022 16:07:06, 373848 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\NvImageConvert32.exe, 5/19/2022 16:07:06, 3709152 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\NvImageConvert64.exe, 5/19/2022 16:07:10, 3988056 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\ReShadeFXC32.exe, 2.00.0000.0000 (English), 5/19/2022 16:07:10, 775760 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\ReShadeFXC64.exe, 2.00.0000.0000 (English), 5/19/2022 16:07:12, 890456 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\ShotWithGeforce518x32.rgba, 5/5/2022 10:39:09, 66304 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\SphericalEquirect32.exe, 5/19/2022 16:07:14, 3659320 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\SphericalEquirect64.exe, 5/19/2022 16:07:16, 3912416 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker01.png, 5/5/2022 10:39:09, 49695 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker02.png, 5/5/2022 10:39:09, 474002 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker03.png, 5/5/2022 10:39:09, 380006 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker04.png, 5/5/2022 10:39:09, 86881 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker05.png, 5/5/2022 10:39:09, 59304 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker06.png, 5/5/2022 10:39:09, 13547 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker07.png, 5/5/2022 10:39:09, 6342 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\Sticker08.png, 5/5/2022 10:39:09, 96493 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\d3dcompiler_47_32.dll, 6.03.9600.16384 (English), 5/19/2022 16:06:46, 3469016 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\d3dcompiler_47_64.dll, 6.03.9600.16384 (English), 5/19/2022 16:06:46, 4176088 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\scratches.jpg, 5/5/2022 10:39:09, 346354 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\tools_licenses.txt, 5/5/2022 10:39:09, 15970 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvCamera\ui.tga, 5/5/2022 10:39:09, 120236 bytes
-   Driver: C:\WINDOWS\system32\MCU.exe, 1.01.5204.20580 (English), 5/19/2022 15:59:14, 851152 bytes
-   Driver: C:\WINDOWS\system32\nvdebugdump.exe, 6.14.0015.1278 (English), 5/19/2022 16:01:12, 458808 bytes
-   Driver: C:\WINDOWS\system32\nvidia-smi.exe, 8.17.0015.1278 (English), 5/19/2022 16:02:08, 712384 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvopencl32.dll, 30.00.0015.1278 (English), 5/19/2022 16:03:40, 16293056 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvopencl64.dll, 30.00.0015.1278 (English), 5/19/2022 16:03:46, 18970816 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcompiler32.dll, 30.00.0015.1278 (English), 5/19/2022 15:59:28, 41488456 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcompiler64.dll, 30.00.0015.1278 (English), 5/19/2022 15:59:42, 46251064 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcompilernext32.dll, 30.00.0015.1278 (English), 5/19/2022 15:59:54, 60179136 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcompilernext64.dll, 30.00.0015.1278 (English), 5/19/2022 16:00:12, 67797696 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvlddmkm.sys, 30.00.0015.1278 (English), 5/19/2022 16:02:32, 42335816 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libcuda.so.1.1, 5/5/2022 10:39:09, 22637416 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libcuda_loader.so, 5/5/2022 10:39:09, 137240 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvcuvid.so.1, 5/5/2022 10:39:09, 5864608 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvdxdlkernels.so, 5/5/2022 10:39:09, 35512144 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvidia-encode.so.1, 5/5/2022 10:39:09, 424400 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvidia-ml.so.1, 5/5/2022 10:39:09, 1873208 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvidia-ml_loader.so, 5/5/2022 10:39:09, 207544 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvidia-nvvm.so, 5/5/2022 10:39:09, 26941176 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvidia-opticalflow.so.1, 5/5/2022 10:39:09, 354768 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvidia-ptxjitcompiler.so.1, 5/5/2022 10:39:09, 11419032 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\libnvwgf2umx.so, 5/5/2022 10:39:09, 45922856 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nv-vk64.json, 5/5/2022 10:39:09, 671 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvDecMFTMjpeg.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:14, 462016 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvDecMFTMjpegx.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:16, 593496 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvEncMFTH264.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:38, 846048 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvEncMFTH264x.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:40, 1074776 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvEncMFThevc.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:42, 850520 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvEncMFThevcx.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:44, 1084504 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcuda32.dll, 30.00.0015.1278 (English), 5/19/2022 16:00:38, 20415184 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvcuda64.dll, 30.00.0015.1278 (English), 5/19/2022 16:00:48, 23578680 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvd3dumx.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:20, 24989784 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvd3dumx_cfg.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:26, 25234472 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdlistx.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:46, 218272 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdxdlkernels.dll, 5/19/2022 16:01:36, 35820768 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvidia-smi, 5/5/2022 10:39:09, 690808 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvldumdx.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:50, 714432 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvml.dll, 8.17.0015.1278 (English), 5/19/2022 16:02:48, 1169600 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvoglv64.dll, 30.00.0015.1278 (English), 5/19/2022 16:03:26, 49783880 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvoptix.bin, 5/5/2022 10:39:09, 133668492 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvoptix.dll, 7.04.0001.0000 (English), 5/19/2022 16:03:56, 43222608 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvptxJitCompiler32.dll, 30.00.0015.1278 (English), 5/19/2022 16:04:14, 7977560 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvptxJitCompiler64.dll, 30.00.0015.1278 (English), 5/19/2022 16:04:18, 9102936 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvrtum64.dll, 30.00.0015.1278 (English), 5/19/2022 16:04:22, 72650960 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvvm64_40_0.dll, 6.14.0011.9000 (English), 5/19/2022 16:05:24, 17958104 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvwgf2umx.dll, 30.00.0015.1278 (English), 5/19/2022 15:59:04, 43409624 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvwgf2umx_cfg.dll, 30.00.0015.1278 (English), 5/19/2022 15:59:16, 43821008 bytes
-   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0015.1278 (English), 5/19/2022 16:01:52, 2120896 bytes
-   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0015.1278 (English), 5/19/2022 16:02:28, 1530456 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\_nvngx.dll, 31.00.0015.1691 (English), 7/29/2022 10:55:36, 1542648 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\cudnn_infer64_7.dll, 7/29/2022 10:48:36, 22774176 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvngx.dll, 30.00.0014.9516 (English), 7/29/2022 10:51:50, 488648 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvngx_update.exe, 31.00.0015.1691 (English), 7/29/2022 10:51:54, 1189896 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvngxdlss.dll, 7/29/2022 10:51:52, 27328 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\FreqTransfer32.exe, 7/29/2022 10:56:12, 3706872 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\FreqTransfer64.exe, 7/29/2022 10:56:14, 4007416 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\GreenScreenBG01.jpg, 7/21/2022 11:00:00, 281528 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\GreenScreenBG02.jpg, 7/21/2022 11:00:00, 499736 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\HighresBlender32.exe, 7/29/2022 10:56:18, 3814400 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\HighresBlender64.exe, 7/29/2022 10:56:18, 4109816 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\NvCamera32.dll, 7.01.0816.0000 (English), 7/29/2022 10:56:20, 8045560 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\NvCamera64.dll, 7.01.0816.0000 (English), 7/29/2022 10:56:20, 8542200 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\NvCameraAllowlisting32.dll, 7.01.0816.0000 (English), 7/29/2022 10:56:22, 562176 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\NvCameraAllowlisting64.dll, 7.01.0816.0000 (English), 7/29/2022 10:56:26, 706040 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\NvCameraEnable.exe, 7/29/2022 10:56:26, 374776 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\NvImageConvert32.exe, 7/29/2022 10:56:28, 3710968 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\NvImageConvert64.exe, 7/29/2022 10:56:30, 3988984 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\ReShadeFXC32.exe, 2.00.0000.0000 (English), 7/29/2022 10:56:30, 776704 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\ReShadeFXC64.exe, 2.00.0000.0000 (English), 7/29/2022 10:56:32, 891384 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\ShotWithGeforce518x32.rgba, 7/21/2022 11:00:00, 66304 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\SphericalEquirect32.exe, 7/29/2022 10:56:34, 3660280 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\SphericalEquirect64.exe, 7/29/2022 10:56:34, 3914232 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker01.png, 7/21/2022 11:00:00, 49695 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker02.png, 7/21/2022 11:00:00, 474002 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker03.png, 7/21/2022 11:00:00, 380006 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker04.png, 7/21/2022 11:00:00, 86881 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker05.png, 7/21/2022 11:00:00, 59304 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker06.png, 7/21/2022 11:00:00, 13547 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker07.png, 7/21/2022 11:00:00, 6342 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\Sticker08.png, 7/21/2022 11:00:00, 96493 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\d3dcompiler_47_32.dll, 6.03.9600.16384 (English), 7/29/2022 10:56:10, 3470840 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\d3dcompiler_47_64.dll, 6.03.9600.16384 (English), 7/29/2022 10:56:12, 4177912 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\scratches.jpg, 7/21/2022 11:00:00, 346354 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\tools_licenses.txt, 7/21/2022 11:00:00, 15970 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvCamera\ui.tga, 7/21/2022 11:00:00, 120236 bytes
+   Driver: C:\WINDOWS\system32\MCU.exe, 1.01.5204.20580 (English), 7/29/2022 10:49:00, 852976 bytes
+   Driver: C:\WINDOWS\system32\nvdebugdump.exe, 6.14.0015.1691 (English), 7/29/2022 10:50:10, 290816 bytes
+   Driver: C:\WINDOWS\system32\nvidia-smi.exe, 8.17.0015.1691 (English), 7/29/2022 10:51:08, 714760 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvopencl32.dll, 31.00.0015.1691 (English), 7/29/2022 10:52:28, 12612592 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvopencl64.dll, 31.00.0015.1691 (English), 7/29/2022 10:52:34, 14809064 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvcompiler32.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:10, 41541104 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvcompiler64.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:24, 46329328 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvlddmkm.sys, 31.00.0015.1691 (English), 7/29/2022 10:51:30, 43719672 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvvm32.dll, 31.00.0015.1691 (English), 7/29/2022 10:54:16, 60236792 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvvm64.dll, 31.00.0015.1691 (English), 7/29/2022 10:54:34, 67932656 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libcuda.so.1.1, 7/21/2022 11:00:00, 15818984 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libcuda_loader.so, 7/21/2022 11:00:00, 141464 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvcuvid.so.1, 7/21/2022 11:00:00, 5950624 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvdxdlkernels.so, 7/21/2022 11:00:00, 7547400 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvidia-encode.so.1, 7/21/2022 11:00:00, 424400 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvidia-ml.so.1, 7/21/2022 11:00:00, 1433216 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvidia-ml_loader.so, 7/21/2022 11:00:00, 208496 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvidia-nvvm.so.4, 7/21/2022 11:00:00, 27191240 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvidia-opticalflow.so.1, 7/21/2022 11:00:00, 354768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvidia-ptxjitcompiler.so.1, 7/21/2022 11:00:00, 11378136 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\libnvwgf2umx.so, 7/21/2022 11:00:00, 45845584 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nv-vk64.json, 7/21/2022 11:00:00, 671 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvDecMFTMjpeg.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:14, 689672 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvDecMFTMjpegx.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:16, 889856 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvEncMFTH264.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:36, 1228280 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvEncMFTH264x.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:38, 1542648 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvEncMFThevc.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:40, 1233912 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvEncMFThevcx.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:42, 1552888 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvcuda32.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:38, 15312376 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvcuda64.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:42, 17838072 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvd3dumx.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:10, 25277552 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvd3dumx_cfg.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:18, 25517008 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdlistx.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:36, 225920 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdxdlkernels.dll, 7/29/2022 10:50:34, 5880824 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvidia-smi, 7/21/2022 11:00:00, 600472 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvldumdx.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:40, 1130000 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvml.dll, 8.17.0015.1691 (English), 7/29/2022 10:51:46, 1180152 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvoglv64.dll, 31.00.0015.1691 (English), 7/29/2022 10:52:14, 51423744 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvoptix.bin, 7/21/2022 11:00:00, 143178196 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvoptix.dll, 7.05.0000.0000 (English), 7/29/2022 10:52:44, 42435560 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvptxJitCompiler32.dll, 31.00.0015.1691 (English), 7/29/2022 10:53:02, 8024568 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvptxJitCompiler64.dll, 31.00.0015.1691 (English), 7/29/2022 10:53:06, 9160696 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvrtum64.dll, 31.00.0015.1691 (English), 7/29/2022 10:53:12, 73321464 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvwgf2umx.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:54, 44114968 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvwgf2umx_cfg.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:08, 44518104 bytes
+   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0015.1691 (English), 7/29/2022 10:50:52, 2127880 bytes
+   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0015.1691 (English), 7/29/2022 10:51:26, 1536504 bytes
    Driver: C:\WINDOWS\system32\OpenCL.dll, 3.00.0006.0000 (English), 12/2/2024 08:55:02, 477816 bytes
-   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:48, 730336 bytes
-   Driver: C:\WINDOWS\system32\nvapi64.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:06, 7616488 bytes
-   Driver: C:\WINDOWS\system32\nvcuda.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:02, 2933816 bytes
-   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0015.1278 (English), 5/19/2022 16:01:08, 6964792 bytes
-   Driver: C:\WINDOWS\system32\nvinfo.pb, 5/5/2022 10:39:09, 89327 bytes
-   Driver: C:\WINDOWS\system32\nvml.dll, 8.17.0015.1278 (English), 5/19/2022 16:02:50, 725560 bytes
-   Driver: C:\WINDOWS\system32\nvofapi64.dll, 5/19/2022 16:03:12, 586432 bytes
+   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:46, 1059328 bytes
+   Driver: C:\WINDOWS\system32\nvapi64.dll, 31.00.0015.1691 (English), 7/29/2022 10:47:54, 7484416 bytes
+   Driver: C:\WINDOWS\system32\nvcuda.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:54, 3066872 bytes
+   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0015.1691 (English), 7/29/2022 10:50:04, 8803832 bytes
+   Driver: C:\WINDOWS\system32\nvinfo.pb, 7/21/2022 11:00:00, 93408 bytes
+   Driver: C:\WINDOWS\system32\nvml.dll, 8.17.0015.1691 (English), 7/29/2022 10:51:48, 771064 bytes
+   Driver: C:\WINDOWS\system32\nvofapi64.dll, 7/29/2022 10:52:00, 865792 bytes
    Driver: C:\WINDOWS\system32\vulkan-[redacted-phone].dll, 1.03.0290.0000 (English), 12/2/2024 08:55:06, 1452392 bytes
    Driver: C:\WINDOWS\system32\vulkan-1.dll, 1.03.0300.0000 (English), 8/16/2025 15:39:50, 1384944 bytes
    Driver: C:\WINDOWS\system32\vulkaninfo-[redacted-phone].exe, 1.03.0290.0000 (English), 12/2/2024 08:55:08, 2060648 bytes
    Driver: C:\WINDOWS\system32\vulkaninfo.exe, 1.03.0290.0000 (English), 12/2/2024 08:55:08, 2060648 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nv-vk32.json, 5/5/2022 10:39:09, 671 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvIccAdvancedColorIdentity.icm, 5/5/2022 10:39:09, 3288 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvd3dum.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:12, 21264864 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvd3dum_cfg.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:34, 21671136 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdispco64.exe, 1.00.0016.0000 (English), 5/19/2022 16:01:26, 1551960 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvdlist.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:42, 183952 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvldumd.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:48, 574992 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvoglv32.dll, 30.00.0015.1278 (English), 5/19/2022 16:03:16, 36478144 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvwgf2um.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:52, 35491880 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\nvwgf2um_cfg.dll, 30.00.0015.1278 (English), 5/19/2022 15:59:28, 36105936 bytes
-   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0015.1278 (English), 5/19/2022 16:01:50, 1602240 bytes
-   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0015.1278 (English), 5/19/2022 16:02:26, 1177296 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nv-vk32.json, 7/21/2022 11:00:00, 671 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvIccAdvancedColorIdentity.icm, 7/21/2022 11:00:00, 3288 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvd3dum.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:00, 21556208 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvd3dum_cfg.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:26, 21962936 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdispco64.exe, 1.00.0016.0000 (English), 7/29/2022 10:50:26, 1552888 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvdlist.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:34, 188968 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvldumd.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:38, 935072 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvoglv32.dll, 31.00.0015.1691 (English), 7/29/2022 10:52:04, 36307456 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvwgf2um.dll, 31.00.0015.1691 (English), 7/29/2022 10:48:42, 35625288 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\nvwgf2um_cfg.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:20, 36283488 bytes
+   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0015.1691 (English), 7/29/2022 10:50:50, 1607656 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0015.1691 (English), 7/29/2022 10:51:26, 1182712 bytes
    Driver: C:\WINDOWS\SysWow64\OpenCL.dll, 3.00.0006.0000 (English), 12/2/2024 08:55:00, 374920 bytes
-   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 30.00.0015.1278 (English), 5/19/2022 16:01:46, 581856 bytes
-   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 30.00.0015.1278 (English), 5/19/2022 15:58:04, 6463592 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 30.00.0015.1278 (English), 5/19/2022 16:00:58, 5100736 bytes
-   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0015.1278 (English), 5/19/2022 16:01:06, 6226640 bytes
-   Driver: C:\WINDOWS\SysWow64\nvofapi.dll, 5/19/2022 16:03:10, 460480 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 31.00.0015.1691 (English), 7/29/2022 10:50:44, 845304 bytes
+   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 31.00.0015.1691 (English), 7/29/2022 10:47:50, 6367416 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 31.00.0015.1691 (English), 7/29/2022 10:49:50, 5362680 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0015.1691 (English), 7/29/2022 10:49:58, 10269704 bytes
+   Driver: C:\WINDOWS\SysWow64\nvofapi.dll, 7/29/2022 10:51:58, 687616 bytes
    Driver: C:\WINDOWS\SysWow64\vulkan-[redacted-phone].dll, 1.03.0290.0000 (English), 12/2/2024 08:55:06, 1301888 bytes
    Driver: C:\WINDOWS\SysWow64\vulkan-1.dll, 1.03.0300.0000 (English), 8/16/2025 15:39:51, 1240024 bytes
    Driver: C:\WINDOWS\SysWow64\vulkaninfo-[redacted-phone].exe, 1.03.0290.0000 (English), 12/2/2024 08:55:08, 1600360 bytes
    Driver: C:\WINDOWS\SysWow64\vulkaninfo.exe, 1.03.0290.0000 (English), 12/2/2024 08:55:08, 1600360 bytes
-   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5520cc25e569bd7e\NvTelemetry64.dll, 14.03.0060.0000 (English), 5/19/2022 16:05:08, 4466088 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nvam.inf_amd64_5bd0721ecfd1c7bd\NvTelemetry64.dll, 14.03.0060.0000 (English), 7/29/2022 10:54:00, 4466096 bytes
 
      Name: AMD Audio CoProcessor
 Device ID: PCI\VEN_1022&DEV_15E2&SUBSYS_15E21022&REV_01\4&12C9051D&0&0541
@@ -1246,9 +1523,7 @@ Media Foundation Transforms
 Video Decoders:
   AMD D3D11 Hardware MFT Playback Decoder, {17796AEB-0F66-4663-B8FB-99CBEE0224CE}, 0x4, 8, amdhwdecoder_64.dll, 31.00.12014.0006
   AMD MFT MJPEG Decoder, {687CBC51-25DA-4FFC-A678-1E64943285A7}, 0x4, 8, amf-mft-mjpeg-decoder64.dll, 31.00.12014.0006
-  NVIDIA MJPEG Video Decoder MFT, {70F[redacted-phone]F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpegx.dll, 30.00.0015.1278
-  AMD D3D11 Hardware MFT Playback Decoder, {17796AEB-0F66-4663-B8FB-99CBEE0224CE}, 0x4, 8, amdhwdecoder_64.dll, 31.00.12014.0006
-  AMD MFT MJPEG Decoder, {687CBC51-25DA-4FFC-A678-1E64943285A7}, 0x4, 8, amf-mft-mjpeg-decoder64.dll, 31.00.12014.0006
+  NVIDIA MJPEG Video Decoder MFT, {70F[redacted-phone]F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpegx.dll, 31.00.0015.1691
   Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.26100.4946
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.26100.1882
   Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.26100.4652
@@ -1267,11 +1542,10 @@ Video Decoders:
   MPEG2VideoExtension
 Video Encoders:
   AMDh265Encoder, {5FD65104-A924-4835-AB71-09A223E3E37B}, 0x4, 8, amdh265enc64.dll, 31.00.12014.0006
-  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264x.dll, 30.00.0015.1278
-  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevcx.dll, 30.00.0015.1278
+  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264x.dll, 31.00.0015.1691
+  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevcx.dll, 31.00.0015.1691
   AMDh264Encoder, {ADC9BC80-0F41-46C6-AB75-D693D793597D}, 0x4, 8, amdh264enc64.dll, 31.00.12014.0006
-  AMDh265Encoder, {5FD65104-A924-4835-AB71-09A223E3E37B}, 0x4, 8, amdh265enc64.dll, 31.00.12014.0006
-  AMDh264Encoder, {ADC9BC80-0F41-46C6-AB75-D693D793597D}, 0x4, 8, amdh264enc64.dll, 31.00.12014.0006
+  Microsoft AVC DX12 Encoder
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.26100.4652
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.26100.4652
   H263 Encoder MFT, {BC47FCFE-98A0-4F27-BB07-698AF24F2B38}, 0x1, mfh263enc.dll, 10.00.26100.3912
@@ -1597,63 +1871,6 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket [redacted-phone], type 4
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: NVDisplay.Container.exe
-P2: 1.37.3103.4323
-P3: 621dbda6
-P4: combase.dll
-P5: 10.0.26100.4768
-P6: 27fb133a
-P7: c0000005
-P8: [redacted-phone]
-P9: 
-P10: 
-
-
-+++ WER1 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: NVDisplay.Container.exe
-P2: 1.37.3103.4323
-P3: 621dbda6
-P4: combase.dll
-P5: 10.0.26100.4768
-P6: 27fb133a
-P7: c0000005
-P8: [redacted-phone]
-P9: 
-P10: 
-
-
-+++ WER2 +++:
-Fault bucket , type 0
-Event Name: APPCRASH
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: NVDisplay.Container.exe
-P2: 1.37.3103.4323
-P3: 621dbda6
-P4: combase.dll
-P5: 10.0.26100.4768
-P6: 27fb133a
-P7: c0000005
-P8: [redacted-phone]
-P9: 
-P10: 
-
-
-+++ WER3 +++:
 Fault bucket [redacted-phone], type 5
 Event Name: StoreAgentScanForUpdatesFailure0
 Response: Not available
@@ -1661,7 +1878,64 @@ Cab Id: 0
 
 Problem signature:
 P1: Update;
-P2: 80240438
+P2: 800b0109
+P3: 26100
+P4: 4946
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER1 +++:
+Fault bucket [redacted-phone], type 5
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 800b0109
+P3: 26100
+P4: 4946
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER2 +++:
+Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 800b0109
+P3: 26100
+P4: 4946
+P5: Windows.Desktop
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER3 +++:
+Fault bucket , type 0
+Event Name: StoreAgentScanForUpdatesFailure0
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Update;
+P2: 800b0109
 P3: 26100
 P4: 4946
 P5: Windows.Desktop
@@ -1673,14 +1947,14 @@ P10:
 
 
 +++ WER4 +++:
-Fault bucket [redacted-phone], type 5
+Fault bucket , type 0
 Event Name: StoreAgentScanForUpdatesFailure0
 Response: Not available
 Cab Id: 0
 
 Problem signature:
 P1: Update;
-P2: 80240438
+P2: 800b0109
 P3: 26100
 P4: 4946
 P5: Windows.Desktop
@@ -1699,7 +1973,7 @@ Cab Id: 0
 
 Problem signature:
 P1: Update;
-P2: 80240438
+P2: 800b0109
 P3: 26100
 P4: 4946
 P5: Windows.Desktop
@@ -1718,7 +1992,7 @@ Cab Id: 0
 
 Problem signature:
 P1: Update;
-P2: 80240438
+P2: 800b0109
 P3: 26100
 P4: 4946
 P5: Windows.Desktop
@@ -1730,58 +2004,58 @@ P10:
 
 
 +++ WER7 +++:
-Fault bucket , type 0
-Event Name: StoreAgentScanForUpdatesFailure0
+Fault bucket [redacted-phone], type 1
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;
-P2: 80240438
-P3: 26100
-P4: 4946
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
+P1: ASUSSmartDisplayControl.exe
+P2: 1.0.0.0
+P3: 6194ad50
+P4: ASUSSmartDisplayControl.exe
+P5: 1.0.0.0
+P6: 6194ad50
+P7: c0000005
+P8: 00002bb1
 P9: 
 P10: 
 
 
 +++ WER8 +++:
 Fault bucket , type 0
-Event Name: StoreAgentScanForUpdatesFailure0
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;
-P2: 80240438
-P3: 26100
-P4: 4946
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
+P1: ASUSSmartDisplayControl.exe
+P2: 1.0.0.0
+P3: 6194ad50
+P4: ASUSSmartDisplayControl.exe
+P5: 1.0.0.0
+P6: 6194ad50
+P7: c0000005
+P8: 00002bb1
 P9: 
 P10: 
 
 
 +++ WER9 +++:
-Fault bucket , type 0
-Event Name: StoreAgentScanForUpdatesFailure0
+Fault bucket [redacted-phone], type 1
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: Update;
-P2: 80240438
-P3: 26100
-P4: 4946
-P5: Windows.Desktop
-P6: 
-P7: 
-P8: 
+P1: ASUSSmartDisplayControl.exe
+P2: 1.0.0.0
+P3: 6194ad50
+P4: ASUSSmartDisplayControl.exe
+P5: 1.0.0.0
+P6: 6194ad50
+P7: c0000005
+P8: 00002bb1
 P9: 
 P10: 
 

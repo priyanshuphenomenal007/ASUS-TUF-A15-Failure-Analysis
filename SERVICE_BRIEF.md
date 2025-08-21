@@ -1,5 +1,5 @@
 ﻿# Service Review Brief — ASUS TUF A15 (FA506ICB)
-**Prepared:** 2025-08-20 | **Owner:** Priyanshu Kumar
+**Prepared:** [redacted-phone] | **Owner:** Priyanshu Kumar
 
 ## Summary
 - **Systemic, Multi-Component Hardware Failure Documented:**
@@ -14,4 +14,5 @@ The simultaneous failure of two separate, critical graphics components (NVIDIA a
 
 ## Objective
 The objective of this brief and its associated repository is to serve as a public, evidence-based case study of a recurring, systemic hardware fault and a subsequent negligent service process.
+
 

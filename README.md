@@ -1,5 +1,5 @@
 ﻿# Failure Analysis — ASUS TUF Gaming A15 (FA506ICB)
-**Report Date:** [redacted-phone] | **System S/N:** N7NRCX07W******304
+**Report Date:** 2025-08-22  | **System S/N:** N7NRCX07W******304
 
 > **Scope:** This repository documents a catastrophic and systemic hardware failure affecting **both the dedicated NVIDIA dGPU and the integrated AMD iGPU**. The evidence includes raw XML reports, video of a degrading dGPU, and a definitive "Code 31" driver failure for the iGPU. HWiNFO logs confirm all failures occur under normal thermal conditions, irrefutably proving a systemic motherboard fault.
 

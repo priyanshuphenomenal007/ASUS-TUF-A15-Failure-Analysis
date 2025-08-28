@@ -7,7 +7,7 @@ Name=AMD Radeon(TM) Graphics
 
 PNPDeviceID=PCI\VEN_1002&amp;DEV_1636&amp;SUBSYS_16AD1043&amp;REV_C6\4&amp;12C9051D&amp;0&amp;0041
 
-Status=Error
+Status=OK
 
 
 
@@ -31,14 +31,14 @@ Status=OK
 Class                       : Display
 FriendlyName                : AMD Radeon(TM) Graphics
 InstanceId                  : PCI\VEN_1002&DEV_1636&SUBSYS_16AD1043&REV_C6\4&12C9051D&0&0041
-Problem                     : CM_PROB_FAILED_ADD
-ConfigManagerErrorCode      : CM_PROB_FAILED_ADD
+Problem                     : CM_PROB_NONE
+ConfigManagerErrorCode      : CM_PROB_NONE
 ProblemDescription          : 
 Caption                     : AMD Radeon(TM) Graphics
 Description                 : AMD Radeon(TM) Graphics
 InstallDate                 : 
 Name                        : AMD Radeon(TM) Graphics
-Status                      : Error
+Status                      : OK
 Availability                : 
 ConfigManagerUserConfig     : False
 CreationClassName           : Win32_PnPEntity

@@ -9,7 +9,7 @@ Registered Owner:              ASUS
 Registered Organization:       N/A
 Product ID:                    [redacted-phone]-AAOEM
 Original Install Date:         8/16/2025, 3:59:38 PM
-System Boot Time:              8/18/2025, 11:39:24 AM
+System Boot Time:              8/23/2025, 10:33:50 PM
 System Manufacturer:           ASUSTeK COMPUTER INC.
 System Model:                  ASUS TUF Gaming A15 FA506ICB_FA506ICB
 System Type:                   x64-based PC
@@ -23,10 +23,10 @@ System Locale:                 en-us;English (United States)
 Input Locale:                  00004009
 Time Zone:                     (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
 Total Physical Memory:         15,789 MB
-Available Physical Memory:     7,084 MB
-Virtual Memory: Max Size:      18,733 MB
-Virtual Memory: Available:     6,183 MB
-Virtual Memory: In Use:        12,550 MB
+Available Physical Memory:     8,092 MB
+Virtual Memory: Max Size:      16,813 MB
+Virtual Memory: Available:     6,062 MB
+Virtual Memory: In Use:        10,751 MB
 Page File Location(s):         C:\pagefile.sys
 Domain:                        WORKGROUP
 Logon Server:                  \\LAPTOP-NSMN8S9D
@@ -45,6 +45,8 @@ Network Card(s):               2 NIC(s) Installed.
                                      IP address(es)
                                      [01]: 192.168.0.128
                                      [02]: fe80::fddb:809a:5976:e55
+                                     [03]: fd01::ac1f:c48c:73b:fa53
+                                     [04]: fd01::a9eb:676f:3d49:6c07
 Virtualization-based security: Status: Not enabled
                                App Control for Business policy: Enforced
                                App Control for Business user mode policy: Off

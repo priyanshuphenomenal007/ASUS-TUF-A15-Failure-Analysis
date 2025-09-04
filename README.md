@@ -41,5 +41,10 @@ Other AI models were used for general-purpose tasks such as text summarization a
 
 The final analysis, all strategic decisions, and the complete, verified body of evidence are the sole work of the author.
 
+---
+## Access Note
+External video evidence (if provided) is hosted on Google Drive with "view-only" access. 
+Links are provided solely for reproducibility and research context. 
+Do not redistribute outside this repository without attribution.
 
 

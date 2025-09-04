@@ -43,7 +43,7 @@ The final analysis, all strategic decisions, and the complete, verified body of 
 
 ---
 ## Access Note
-External video evidence (if provided) is hosted on Google Drive with "view-only" access. 
+External video evidence  is hosted on Google Drive with "view-only" access. 
 Links are provided solely for reproducibility and research context. 
 Do not redistribute outside this repository without attribution.
 
